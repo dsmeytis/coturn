@@ -166,6 +166,10 @@ void ioa_lock_blacklist(ioa_engine_handle e);
 void ioa_unlock_blacklist(ioa_engine_handle e);
 const ip_range_list_t* ioa_get_blacklist(ioa_engine_handle e);
 
+void ioa_lock_zeroratelist(ioa_engine_handle e);
+void ioa_unlock_zeroratelist(ioa_engine_handle e);
+const ip_range_list_t* ioa_get_zeroratelist(ioa_engine_handle e);
+
 ////////////////////////////////////////////
 
 /*
